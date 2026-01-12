@@ -2,6 +2,7 @@ package pl.upsanok.onlinestorebackendexcercise.controllers;
 
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -37,28 +38,23 @@ public record FruitsService(List<Fruit> fruits) {
   }
 
   public Fruit getMostExpensive() {
-    return fruits.stream()
-        .max(Comparator.comparingInt(Fruit::price))
-        .orElse(null);
+    Fruit fruit = null; // FIXME !
+    return fruit;
   }
 
   public Fruit getCheapest() {
-    return fruits.stream()
-        .min(Comparator.comparingInt(Fruit::price))
-        .orElse(null);
+    Fruit fruit = null; // FIXME !
+    return fruit;
   }
 
   public Double getAveragePrice() {
-    return fruits.stream()
-        .mapToInt(Fruit::price)
-        .average()
-        .orElse(0.0);
+    double averagePrice = 0.0; // FIXME!
+    return averagePrice;
   }
 
   public int sumAllPrices() {
-    return fruits.stream()
-        .mapToInt(Fruit::price)
-        .sum();
+    int sum = 0; // FIXME!
+    return sum;
   }
 
   public List<FruitsFrequency> getFruitFrequency() {
@@ -70,7 +66,7 @@ public record FruitsService(List<Fruit> fruits) {
   }
 
   private Map<String, Long> getFrequenceMap() {
-    return fruits.stream()
-        .collect(Collectors.groupingBy(Fruit::name, Collectors.counting()));
+    Map<String, Long> resukt = new HashMap<>(); //FIXME!
+    return resukt;
   }
 }
