@@ -19,7 +19,7 @@ public class CorsFilterConfiguration {
             .allowedMethods("GET", "POST", "DELETE")
             .allowedHeaders("Origin","Content-Type","Content-Length","Accept", "Accept-Encoding",
             "Accept-Language", "Connection", "Host", "User-Agent", "sec-ch-ua", "sec-ch-ua-mobile", "sec-ch-ua-platform")
-            .allowedOrigins("http://localhost:3000","https://secret-santa-production-cb6b.up.railway.app/");
+            .allowedOrigins("http://localhost:3000","https://online-store-frontend-excercise-production.up.railway.app");
       }
     };
   }
