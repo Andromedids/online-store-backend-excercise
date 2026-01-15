@@ -37,24 +37,24 @@ public record FruitsService(List<Fruit> fruits) {
     return fruits;
   }
 
+  public Fruit getCheapest() {
+    Fruit fruit = null; //FIXME !
+    return fruit;
+  }
+
   public Fruit getMostExpensive() {
     Fruit fruit = null; // FIXME !
     return fruit;
   }
 
-  public Fruit getCheapest() {
-    Fruit fruit = null; // FIXME !
-    return fruit;
+  public int sumAllPrices() {
+    int sum = 0; // FIXME!
+    return sum;
   }
 
   public Double getAveragePrice() {
     double averagePrice = 0.0; // FIXME!
     return averagePrice;
-  }
-
-  public int sumAllPrices() {
-    int sum = 0; // FIXME!
-    return sum;
   }
 
   public List<FruitsFrequency> getFruitFrequency() {
