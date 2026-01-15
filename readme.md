@@ -57,7 +57,7 @@ Przed Państwem instrukcja co krok po kroku wykonać aby uzyskać powyższy efek
     ![Alt text](pictures/build-execution.png?raw=true "Co wybrać?!")
 11. Otwórz sekcję `Plugins`, w szukajkę wpisz `Lombok`, wybierz plugin z papryczką i Zainstaluj (u
     mnie już jest zainstalowany). <br/>
-    Być może trzeba będzie zrestartować Intellija. <br/>
+    Być może trzeba będzie zrestartować Intellija.
     ![Alt text](pictures/lombok.png?raw=true "Jak wygląda Lombok?!")
 12. W prawym dolnym rogu powinno się pokazać okienko włączenia procesowania adnotacji.<br/>
     Jeśli się nie pojawiło, wejdź w Ustawienia (punkt 9) i wyszukaj `enable ann` i znajdź sekcję pokazaną poniżej i zaznacz.
@@ -69,14 +69,13 @@ Przed Państwem instrukcja co krok po kroku wykonać aby uzyskać powyższy efek
     katalogu z projektem i wywołaj `./gradlew build` i poczekaj, aż skończy działać. <br/>
     ![Alt text](pictures/gradlew-build.png?raw=true "A co jeśli mi nie działa?")
 15. Jeśli kod nie działa i dużo klas świeci na czerwono oraz zauważysz w prawym dolnym rogu małe
-    okienko a w nim komunikat `Lombok..`,<br/>
+    okienko a w nim komunikat `Lombok..` (jak w pkt 11),<br/>
     lub również w prawym dolnym rogu przy `Event Log` pojawi się czerwone,<br/>
     kliknij na niebieski tekst "enable". (prawdopodobnie krok 18 nie został wykonany poprawnie)
-    ![Alt text](pictures/enable-lombok.png?raw=true "A co jeśli lombok nie działa?")
 16. **GDYBY NADAL NIE** - poproś Prowadzącą :)
 
 ### Zawsze restartując program, wyłączaj poprzednie działania czerwonym kwadracikiem!
-    <br/> <br/>
+<br/> <br/>
 
 ## Brawo! środowisko skonfigurowane, czas na implementację!
 1. Proszę otworzyć stronę Projektu w przeglądarce `Chrome`: [Link Do Ryneczka](https://online-store-frontend-excercise-production.up.railway.app/)
