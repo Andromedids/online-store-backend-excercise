@@ -57,7 +57,7 @@ Przed Państwem instrukcja co krok po kroku wykonać aby uzyskać powyższy efek
     ![Alt text](pictures/build-execution.png?raw=true "Co wybrać?!")
 11. Otwórz sekcję `Plugins`, w szukajkę wpisz `Lombok`, wybierz plugin z papryczką i Zainstaluj (u
     mnie już jest zainstalowany). <br/>
-    Być może trzeba będzie zrestartować Intellija.
+    Być może trzeba będzie zrestartować Intellija. <br/>
     ![Alt text](pictures/lombok.png?raw=true "Jak wygląda Lombok?!")
 12. W prawym dolnym rogu powinno się pokazać okienko włączenia procesowania adnotacji.<br/>
     Jeśli się nie pojawiło, wejdź w Ustawienia (punkt 9) i wyszukaj `enable ann` i znajdź sekcję pokazaną poniżej i zaznacz.
@@ -72,6 +72,8 @@ Przed Państwem instrukcja co krok po kroku wykonać aby uzyskać powyższy efek
     okienko a w nim komunikat `Lombok..` (jak w pkt 11),<br/>
     lub również w prawym dolnym rogu przy `Event Log` pojawi się czerwone,<br/>
     kliknij na niebieski tekst "enable". (prawdopodobnie krok 18 nie został wykonany poprawnie)
+    ![Alt text](pictures/enable-lombok.png?raw=true "A co jeśli lombok nie działa?")
+
 16. **GDYBY NADAL NIE** - poproś Prowadzącą :)
 
 ### Zawsze restartując program, wyłączaj poprzednie działania czerwonym kwadracikiem!
@@ -81,7 +83,7 @@ Przed Państwem instrukcja co krok po kroku wykonać aby uzyskać powyższy efek
 1. Proszę otworzyć stronę Projektu w przeglądarce `Chrome`: [Link Do Ryneczka](https://online-store-frontend-excercise-production.up.railway.app/)
 2. Proszę zobaczyć - Ryneczek nie może się załadować :( .
    ![Alte text](pictures/nie-moze-sie-zaladowac-gdy-aplikacja-nie-dziala.png?raw=true "Strona gdy się nie może połączyć z aplikacją")
-3. Musimy uruchomić aplikację backendową. Już mają Państwo ją otwartą w IntelliJu. Proszę zlokalizować plik `OnlineStoreBackendExcerciseApplication` i go otworzyć5. ![Alt text](pictures/enable-lombok.png?raw=true "A co jeśli lombok nie działa?")
+3. Musimy uruchomić aplikację backendową. Już mają Państwo ją otwartą w IntelliJu. Proszę zlokalizować plik `OnlineStoreBackendExcerciseApplication` i go otworzyć5. 
    ![Alt text](pictures/gdzie-jest-main.png?raw=true "Gdzie jest main")
 4. Po zlokalizowaniu pliku uruchommy aplikację. Proszę odnaleźć zielony trójkącik przy numerach linii, kliknąć go a następnie poszukać na dole "Started OnlineStoreBackendExcerciseApplication" - jak na zrzucie ekranu poniżej.
    ![Alt text](pictures/jak-uruchomic-maina.png?raw=true "Jak uruchomić maina")
